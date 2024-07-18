@@ -11,7 +11,7 @@ struct StarRating: View {
     @State private var rating = 0
     var body: some View {
         VStack{
-            Text("Puanınız: \(rating)")
+            Text("Your Score: \(rating)")
                 .font(.headline)
                 .padding()
             

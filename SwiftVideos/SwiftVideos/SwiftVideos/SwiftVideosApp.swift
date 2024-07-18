@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftVideosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarRating()
         }
     }
 }
